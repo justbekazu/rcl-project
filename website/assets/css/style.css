@@ -2,6 +2,19 @@ header {
   padding: 20px 35px;
   background-color: rgb(223, 238, 250);
 }
+header h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 85px;
+  color: #808fa5;
+  margin: 0;
+}
+
+header a {
+  color: #989898;
+  text-decoration: none;
+}
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
