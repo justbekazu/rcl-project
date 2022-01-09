@@ -25,7 +25,7 @@ RCL was founded in 2021 by Chris Rogers. Chris has worked in construction since 
 
 ### What we can do for you
 
-RCL is a one stop shop for all your concrete lifting needs. Large or small, residential or commercial, RCL has the knowledge and tools to complete any job in a timely and professional manner. RCL is based in middle TN (Hendersonville) and will travel 50 miles for standard jobs. IF you should require RCL to travel beyond this, please contact us for a quote.
+RCL is a one stop shop for all your concrete lifting needs. Large or small, residential or commercial, RCL has the knowledge and tools to complete any job in a timely and professional manner. RCL is based in middle TN (Hendersonville) and operates within a 50 mile radius for standard jobs. Should you require RCL to travel beyond this, we will be happy to provide you with a quote.
 
 <br>
 

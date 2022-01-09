@@ -1,3 +1,8 @@
+header {
+  padding: 20px 35px;
+  background-color: rgb(223, 238, 250);
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(238, 236, 236);
