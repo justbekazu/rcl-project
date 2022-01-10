@@ -1,15 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 header {
   padding: 20px 35px;
   background-color: rgb(223, 238, 250);
+  width: 100%;
 }
 
 nav {
-  background-color: #c1d1e1;
+  width: 100%;
+  text-align: right;
+  padding: 10px 10px;
 }
 
 header h1 {
@@ -45,4 +49,11 @@ header nav ul li a {
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(238, 236, 236);
+}
+
+footer {
+  background: rgb(223, 238, 250);
+  width: 100%;
+  padding: 10px;
+  text-align: center;
 }
