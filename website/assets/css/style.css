@@ -4,35 +4,35 @@
   box-sizing: border-box;
 }
 
-header {
-  padding: 20px 35px;
-  background-color: rgb(223, 238, 250);
-  width: 100%;
+img {
+  width: 30%;
 }
 
 nav {
   width: 100%;
   text-align: right;
-  padding: 10px 10px;
+  padding: 20px 10px;
+  margin: 20px;
+  position: relative;
 }
 
 header h1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
-  font-size: 25px;
-  color: #808fa5;
+  font-size: 59px;
+  color: rgb(146, 149, 151);
   margin: 0;
   display: inline;
 }
 
 header a {
-  color: #989898;
+  color: rgb(248, 251, 252);
   text-decoration: none;
 }
 
 header nav {
-  margin: 15px 0;
+  margin: 10px 0;
   float: right;
 }
 
@@ -41,14 +41,21 @@ header nav ul li {
 }
 
 header nav ul li a {
-  margin: 0 40px;
   font-weight: lighter;
+  margin: 0 40px;
   font-size: 15px;
 }
 
+header h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(146, 149, 151);
+  padding: 7px;
+}
+
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(238, 236, 236);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 footer {
@@ -56,4 +63,32 @@ footer {
   width: 100%;
   padding: 10px;
   text-align: center;
+}
+
+.hero {
+  background-image: url("../images/Generic\ Social\ Media\ Post\ 10.jpg");
+  height: 650px;
+  position: static;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form {
+  background-color: #fcfcfa;
+
+  padding: 20px;
+  width: 500px;
+  color: rgb(146, 149, 151);
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(146, 149, 151);
+  position: absolute;
+  bottom: 0px;
+  width: 50%;
+}
+
+section {
+  padding: 35px;
 }
