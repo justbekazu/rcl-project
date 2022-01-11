@@ -11,23 +11,21 @@ img {
 nav {
   width: 100%;
   text-align: right;
-  padding: 20px 10px;
-  margin: 20px;
-  position: relative;
+  padding: 10px 10px;
 }
 
 header h1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
-  font-size: 59px;
+  font-size: 50px;
   color: rgb(146, 149, 151);
   margin: 0;
   display: inline;
 }
 
 header a {
-  color: rgb(248, 251, 252);
+  color: rgb(146, 149, 151);
   text-decoration: none;
 }
 
@@ -42,8 +40,8 @@ header nav ul li {
 
 header nav ul li a {
   font-weight: lighter;
-  margin: 0 40px;
-  font-size: 15px;
+  margin: 10px 40px;
+  font-size: 16px;
 }
 
 header h3 {
@@ -59,36 +57,56 @@ body {
 }
 
 footer {
-  background: rgb(223, 238, 250);
+  background: rgb(5, 79, 142);
   width: 100%;
   padding: 10px;
   text-align: center;
 }
+footer h3 {
+  color: #fcfcfa;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 
 .hero {
-  background-image: url("../images/Generic\ Social\ Media\ Post\ 10.jpg");
-  height: 650px;
-  position: static;
+  background-image: url("../images/Generic\ Social\ Media\ Post\ 3.jpg");
+  height: 870px;
+  position: relative;
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .form {
-  background-color: #fcfcfa;
+  display: block;
+  text-align: center;
+  bottom: 0px;
+}
 
+form {
+  background-color: #fcfcfa;
+  text-align: center;
   padding: 20px;
-  width: 500px;
+  display: inline-block;
   color: rgb(146, 149, 151);
   border-style: solid;
   border-width: 5px;
   border-color: rgb(146, 149, 151);
-  position: absolute;
-  bottom: 0px;
+  right: auto;
+  left: auto;
   width: 50%;
 }
 
-section {
-  padding: 35px;
+.guts {
+  padding: 30px;
+}
+
+.navbar {
+  padding: 25px;
+}
+
+iframe {
+  display: inline-block;
+  right: auto;
+  left: auto;
 }
