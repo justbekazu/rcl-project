@@ -90,6 +90,7 @@ footer h3 {
   color: #fcfcfa;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  padding: 5px;
 }
 
 .hero {
@@ -131,8 +132,9 @@ button {
   font-size: 20px;
   padding: 5px;
   margin: 10px;
-  background-color: darkgray;
+  background-color: rgb(187, 181, 181);
   color: white;
+  text-decoration: none;
 }
 
 /* .navbar {
@@ -145,6 +147,9 @@ iframe {
 }
 
 .map {
+  text-align: center;
+}
+.mapwords {
   padding: 10px 50px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -168,14 +173,21 @@ p {
 }
 .contact {
   width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 60px;
-  color: rgb(146, 149, 151);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px 5px;
+  color: rgb(252, 248, 248);
   font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
+.socialmedia {
+  background: rgb(5, 79, 142);
+  text-align: center;
+}
 /* Style all font awesome icons */
 .fa {
   margin: 20px;
@@ -184,6 +196,8 @@ p {
   width: 60px;
   text-align: center;
   text-decoration: none;
+  border-radius: 20%;
+  /* box-shadow: 2px 2px 2px 2px rgb(194, 192, 192); */
 }
 
 /* Add a hover effect if you want */
@@ -221,5 +235,6 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 30px;
-  margin: 0px 30px;
+  padding: 20px;
+  color: white;
 }
