@@ -13,7 +13,7 @@
 - About us
 - What we can do for you
 - What we use
-- Get in touch with us
+- Let's talk
 
 <br>
 
@@ -35,7 +35,7 @@ RCL uses the best tools and materials in the business to insure that each job is
 
 <br>
 
-### Get in touch with us
+### Let's talk
 
 For more information or to request a quote, please call
 

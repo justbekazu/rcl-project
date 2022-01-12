@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
-img {
-  width: 30%;
+.logo {
+  height: 40px;
+  position: relative;
+  height: fit-content;
+  width: 50%;
+  right: auto;
+  left: auto;
+  padding: 0 10px;
 }
 
 nav {
@@ -40,8 +46,7 @@ header nav ul li {
 
 header nav ul li a {
   font-weight: lighter;
-  margin: 10px 40px;
-  font-size: 16px;
+  margin: 18px;
 }
 
 header h3 {
@@ -69,8 +74,8 @@ footer h3 {
 }
 
 .hero {
-  background-image: url("../images/Generic\ Social\ Media\ Post\ 3.jpg");
-  height: 870px;
+  background-image: url("../images/therightsolution.jpg");
+  height: 720px;
   position: relative;
 
   background-size: cover;
@@ -97,16 +102,32 @@ form {
   width: 50%;
 }
 
-.guts {
-  padding: 30px;
-}
-
 .navbar {
   padding: 25px;
 }
 
 iframe {
   display: inline-block;
-  right: auto;
-  left: auto;
+  padding: 10px;
+}
+
+.map {
+  padding: 10px 50px;
+}
+
+img {
+  padding: 30px 0px;
+  height: 600px;
+  position: static;
+  height: fit-content;
+  width: 100%;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  padding: 5px 30px;
+  background-color: rgb(216, 213, 213);
 }
