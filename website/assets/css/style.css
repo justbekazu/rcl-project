@@ -5,7 +5,7 @@
 }
 
 .logo {
-  height: 40px;
+  height: 30px;
   position: relative;
   height: fit-content;
   width: 50%;
@@ -16,8 +16,26 @@
 
 nav {
   width: 100%;
-  text-align: right;
-  padding: 10px 10px;
+  background: rgb(150, 201, 235);
+  /* border-bottom: 10px solid #fcfcfa; */
+  text-align: center;
+  box-shadow: 3px 0px 5px rgb(111, 109, 109);
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px 40px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  transition: 0.5s;
+}
+
+ul li:hover {
+  background: white;
+  font-weight: bold;
 }
 
 header h1 {
@@ -35,19 +53,20 @@ header a {
   text-decoration: none;
 }
 
-header nav {
+/* header nav {
   margin: 10px 0;
   float: right;
-}
+  font-size: 20px;
+} */
 
-header nav ul li {
+/* header nav ul li {
   display: inline;
-}
+} */
 
-header nav ul li a {
+/* header nav ul li a {
   font-weight: lighter;
-  margin: 18px;
-}
+  margin: 50px;
+} */
 
 header h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -91,20 +110,34 @@ footer h3 {
 form {
   background-color: #fcfcfa;
   text-align: center;
+  margin: 20px;
   padding: 20px;
   display: inline-block;
-  color: rgb(146, 149, 151);
+  color: rgb(129, 134, 138);
   border-style: solid;
   border-width: 5px;
   border-color: rgb(146, 149, 151);
   right: auto;
   left: auto;
   width: 50%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
 }
 
-.navbar {
-  padding: 25px;
+button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  background-color: darkgray;
+  color: white;
 }
+
+/* .navbar {
+  padding: 25px;
+} */
 
 iframe {
   display: inline-block;
@@ -113,6 +146,8 @@ iframe {
 
 .map {
   padding: 10px 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 img {
@@ -139,4 +174,52 @@ p {
   margin: 30px 0 0 60px;
   color: rgb(146, 149, 151);
   font-size: 25px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  margin: 20px;
+  padding: 20px;
+  font-size: 50px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* youtube */
+.fa-youtube {
+  background: #f23232;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #582fba;
+  color: white;
+}
+
+.social {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  margin: 0px 30px;
 }
