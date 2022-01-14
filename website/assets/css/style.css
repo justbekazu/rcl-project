@@ -250,3 +250,11 @@ form input {
 form label {
   font-size: 20px;
 }
+.movie {
+  align-items: right;
+}
+h4.moviewords {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
