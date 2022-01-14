@@ -238,3 +238,15 @@ p {
   padding: 20px;
   color: white;
 }
+
+form p {
+  text-align: center;
+}
+
+form input {
+  font-size: 30px;
+}
+
+form label {
+  font-size: 20px;
+}

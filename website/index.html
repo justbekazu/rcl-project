@@ -5,7 +5,34 @@
         <title>RCL😷</title>
         <link rel="stylesheet" href="assets/css/style.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function () {
+                // https://dashboard.emailjs.com/admin/integration
+                emailjs.init('user_yKIw7R39EjS4kvUYBxfU6');
+            })();
+        </script>
+        <script type="text/javascript">
+            window.onload = function () {
+                document.getElementById('contact-form').addEventListener('submit', function (event) {
+                    event.preventDefault();
+                    // console.log(event);
+                    // generate a five digit number for the contact_number variable
+                    
+                    // this.contact_number.value = Math.random() * 100000 | 0;
+                    console.log(this.commercial);
+                    // these IDs from the previous steps
+                    emailjs.sendForm('service_na3av5m', 'template_ye3hwhn', this)
+                        .then(function () {
+                            console.log('SUCCESS!');
+                        }, function (error) {
+                            console.log('FAILED...', error);
+                        });
+                });
+            }
+        </script>
+
+
          </head>
         <body>
             <!--navigation-->
@@ -13,7 +40,11 @@
             
             <div class="logo">
             <img src="../website/assets/images/rcllogonoshadow.jpg" alt="rcl logo">
-        
+
+            <div class="movie">
+            <iframe src ="https://www.youtube.com/embed/p2nYWpEPxTM"></iframe>
+            <h4 class="movie">Why we're the best in the business.</h4>
+            </div>
                 <!-- <h3>We can handle all your concrete lifting needs, large or small.</h3>  -->
         
             </div>
@@ -49,21 +80,24 @@
                         <h3>We will get back with you within 24 hours</h3>
                         <p>You're a click away from learning more about what we do and how we can help you.</p>
                         <label for="name"> Your name:</label>
-                        <input type="text" placeholder="name" id="name"/>
+                        <input type="text" placeholder="name" name="from_name"/>
                         <br />
                         <label for="email"> Your email:</label>
-                        <input type="email" placeholder="email" id="email"/>
+                        <input type="email" placeholder="email" name="reply_to"/>
                         <br />
                         <label for="tel"> Your phone number:</label>
-                        <input type="tel" placeholder="phone number" id="tel"/>
+                        <input type="tel" placeholder="phone number"/>
                         <br />
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="job description" placeholder="tell us about the job" style="height:100px" style="width:300px"></textarea>
                         <p>
-                        <input type="radio" name= "commercial or residential" id="commercial"/>
+                        <input type="radio" name= "commercial"/>
                         <label for="commercial">commercial</label>
-                        <input type="radio" name= "commercial or residential" id="residential"/>
+                        </p>
+                        <p><input type="radio" name= "residential"/>
                         <label for="residential">residential</label>
                         </p>
-                        <button type="button" onclick="alert('information submitted')">Submit</button>
+                        <input type="submit" value="Submit"></input>
                     </form>
                 </div>
             </section>
@@ -105,7 +139,7 @@
 
         <div class="contact"> 
             <button><a href="tel:6292621686">629.262.1686</a></button><br />
-            <button ><a href="mailto:=Chris.Rogers@rogersconcretelifting.com">Contact Chris!</a></button>
+            <button ><a href="mailto:Chris.Rogers@rogersconcretelifting.com">Contact Chris!</a></button>
         </div>
         <br />
         <br />
@@ -123,15 +157,16 @@
         <br />
         <div class="socialmedia">
             <h3 class="social">Follow us!</h3>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-facebook" alt="facebook icon"></a>
+        <a href="#" class="fa fa-twitter" alt="twitter icon"></a>
+        <a href="https://www.instagram.com/rogersconcretelifting/?utm_medium=copy_link" class="fa fa-instagram" alt="instagram icon"></a>
+        <a href="https://www.youtube.com/user/mudbugeater" class="fa fa-youtube" alt="youtube icon"></a>
+        <a href="#" class="fa fa-tiktok" alt="tiktok icon"></a>
         </div>
 
         <footer>
             <h3 class="footer">always on the level</h3>
-            <h3> 442 sanders ferry rd Hendersonville TN 37075 &copy;RCL LLC 2022</h3>
+            <h3> Hendersonville TN &copy;RCL LLC 2022</h3>
         </footer>
 </html>
 
