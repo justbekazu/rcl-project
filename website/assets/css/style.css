@@ -6,12 +6,22 @@
 
 .logo {
   height: 30px;
-  position: relative;
+  position: absolute;
   height: fit-content;
   width: 50%;
-  right: auto;
-  left: auto;
-  padding: 0 10px;
+  /* right: auto;
+  left: auto; */
+
+  float: left;
+}
+.movie {
+  float: right;
+  width: 50%;
+}
+h4.moviewords {
+  font-family: " sTrebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
 }
 
 nav {
@@ -80,28 +90,11 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
-footer {
-  background: rgb(5, 79, 142);
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-}
-footer h3 {
-  color: #fcfcfa;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  padding: 5px;
-}
-
-.hero {
-  background-image: url("../images/therightsolution.jpg");
+/* .hero {
   height: 720px;
-  position: relative;
+  position: relative; */
+/* } */
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .form {
   display: block;
   text-align: center;
@@ -124,6 +117,17 @@ form {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 16px;
+}
+form p {
+  text-align: center;
+}
+
+form input {
+  font-size: 30px;
+}
+
+form label {
+  font-size: 20px;
 }
 
 button {
@@ -239,22 +243,15 @@ p {
   color: white;
 }
 
-form p {
+footer {
+  background: rgb(5, 79, 142);
+  width: 100%;
+  padding: 10px;
   text-align: center;
 }
-
-form input {
-  font-size: 30px;
-}
-
-form label {
-  font-size: 20px;
-}
-.movie {
-  align-items: right;
-}
-h4.moviewords {
+footer h3 {
+  color: #fcfcfa;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 20px;
+  padding: 5px;
 }
