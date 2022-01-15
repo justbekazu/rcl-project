@@ -4,24 +4,40 @@
   box-sizing: border-box;
 }
 
-.logo {
+/* .logo {
   height: 30px;
   position: absolute;
   height: fit-content;
-  width: 50%;
-  /* right: auto;
-  left: auto; */
-
-  float: left;
+  width: 50vw;
+   right: auto;
+  left: auto; 
+ float: left;
 }
 .movie {
   float: right;
-  width: 50%;
+  width: 50vw;
 }
 h4.moviewords {
   font-family: " sTrebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 20px;} */
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-1 {
+  flex: 1;
+  padding: 0px 20px;
+  flex-basis: 50%;
+}
+.box-2 {
+  flex: 1;
+  padding: 20px 0px 20px 100px;
+  flex-basis: 30%;
+  flex: 1 1 auto;
+  display: flex;
 }
 
 nav {
@@ -113,10 +129,10 @@ form {
   border-color: rgb(146, 149, 151);
   right: auto;
   left: auto;
-  width: 50%;
+  width: 50vh;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 form p {
   text-align: center;
