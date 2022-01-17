@@ -9,7 +9,7 @@
         <script type="text/javascript">
             (function () {
                 // https://dashboard.emailjs.com/admin/integration
-                emailjs.init("user_6rCqmVjkomuxXFKaYVqkj");
+                emailjs.init('user_6rCqmVjkomuxXFKaYVqkj');
             })();
         </script>
         <script type="text/javascript">
@@ -22,7 +22,7 @@
                     // this.contact_number.value = Math.random() * 100000 | 0;
                     console.log(this.commercial);
                     // these IDs from the previous steps
-                    emailjs.sendForm('service_na3av5m', 'template_ye3hwhn', this)
+                    emailjs.sendForm('service_83zldqq', 'template_tuxybdd', this)
                         .then(function () {
                             console.log('SUCCESS!');
                         }, function (error) {
@@ -91,10 +91,10 @@
                         <input type="email" placeholder="email" name="reply_to"/>
                         <br />
                         <label for="tel"> Your phone number:</label>
-                        <input type="tel" placeholder="phone number"/>
+                        <input type="tel" placeholder="phone number" name="phone_number"/>
                         <br />
                         <label for="subject">Subject</label>
-                        <textarea id="subject" name="job description" placeholder="tell us about the job" style="height:100px" style="width:300px"></textarea>
+                        <textarea id="subject" name="job_description" placeholder="tell us about the job" style="height:100px" style="width:300px"></textarea>
                         <p>
                         <input type="radio" name= "commercial"/>
                         <label for="commercial">commercial</label>
