@@ -22,7 +22,7 @@ h4.moviewords {
     "Lucida Sans", Arial, sans-serif;
   font-size: 20px;} */
 backgound {
-  color: rgb(237, 225, 225);
+  color: rgb(237, 2, 2);
 }
 
 .container-1 {
@@ -47,7 +47,7 @@ backgound {
 
 nav {
   width: 100%;
-  background: rgb(221, 104, 104);
+  background: rgb(237, 2, 2);
   /* border-bottom: 10px solid #fcfcfa; */
   text-align: center;
   box-shadow: 5px 0px 5px rgb(138, 117, 117);
@@ -74,13 +74,13 @@ header h1 {
     "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
   font-size: 50px;
-  color: rgb(249, 216, 216);
+  color: rgb(237, 2, 2);
   margin: 0;
   display: inline;
 }
 
 header a {
-  color: rgb(146, 149, 151);
+  color: rgb(250, 252, 253);
   text-decoration: none;
 }
 
@@ -102,13 +102,14 @@ header a {
 header h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: rgb(209, 173, 173);
+  color: rgb(237, 2, 2);
   padding: 7px;
 }
 
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background-image: url("../images/concretebackground.jpg");
 }
 
 /* .hero {
@@ -123,15 +124,15 @@ body {
 }
 
 form {
-  background-color: #f5f1bb;
+  background-color: #d6d5d5;
   text-align: center;
   margin: 20px;
   padding: 20px;
   display: inline-block;
-  color: rgb(163, 102, 102);
+  color: rgb(4, 0, 0);
   border-style: solid;
-  border-width: 5px;
-  border-color: rgb(155, 60, 60);
+  border-width: 10px;
+  border-color: rgb(237, 2, 2);
   right: auto;
   left: auto;
   width: 50vh;
